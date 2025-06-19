@@ -1,7 +1,7 @@
 {
   "id": "odyssey",
   "title": "Odyssey",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
