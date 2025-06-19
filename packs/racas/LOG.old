@@ -1,28 +1,3 @@
-2025/06/19-03:11:54.610 3904 Recovering log #11
-2025/06/19-03:11:54.610 3904 Level-0 table #13: started
-2025/06/19-03:11:54.612 3904 Level-0 table #13: 5187 bytes OK
-2025/06/19-03:11:54.612 3904 Recovering log #13
-2025/06/19-03:11:54.612 3904 Level-0 table #14: started
-2025/06/19-03:11:54.614 3904 Level-0 table #14: 5187 bytes OK
-2025/06/19-03:11:54.619 3904 Delete type=0 #11
-2025/06/19-03:11:54.619 3904 Delete type=0 #13
-2025/06/19-03:11:54.619 3904 Delete type=3 #10
-2025/06/19-03:12:18.988 5c68 Level-0 table #17: started
-2025/06/19-03:12:18.988 5c68 Level-0 table #17: 0 bytes OK
-2025/06/19-03:12:18.990 5c68 Delete type=0 #15
-2025/06/19-03:12:18.991 5c68 Manual compaction at level-0 from '!folders!2ofA8BP1EhVFkyRX' @ 72057594037927935 : 1 .. '!items!uaVMECb2Qnwvzj2i' @ 0 : 0; will stop at '!items!yq13gyGDhXuOwoQt' @ 44 : 0
-2025/06/19-03:12:18.991 5c68 Compacting 2@0 + 0@1 files
-2025/06/19-03:12:18.995 5c68 Generated table #18@0: 22 keys, 5187 bytes
-2025/06/19-03:12:18.995 5c68 Compacted 2@0 + 0@1 files => 5187 bytes
-2025/06/19-03:12:18.996 5c68 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/06/19-03:12:18.996 5c68 Delete type=2 #13
-2025/06/19-03:12:18.996 5c68 Delete type=2 #14
-2025/06/19-03:12:19.000 5c68 Manual compaction at level-0 from '!items!yq13gyGDhXuOwoQt' @ 44 : 0 .. '!items!uaVMECb2Qnwvzj2i' @ 0 : 0; will stop at (end)
-2025/06/19-03:12:19.002 5c68 Manual compaction at level-1 from '!folders!2ofA8BP1EhVFkyRX' @ 72057594037927935 : 1 .. '!items!uaVMECb2Qnwvzj2i' @ 0 : 0; will stop at '!items!yq13gyGDhXuOwoQt' @ 44 : 0
-2025/06/19-03:12:19.002 5c68 Compacting 1@1 + 1@2 files
-2025/06/19-03:12:19.004 5c68 Generated table #19@1: 21 keys, 5161 bytes
-2025/06/19-03:12:19.004 5c68 Compacted 1@1 + 1@2 files => 5161 bytes
-2025/06/19-03:12:19.006 5c68 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/06/19-03:12:19.006 5c68 Delete type=2 #5
-2025/06/19-03:12:19.006 5c68 Delete type=2 #18
-2025/06/19-03:12:19.010 5c68 Manual compaction at level-1 from '!items!yq13gyGDhXuOwoQt' @ 44 : 0 .. '!items!uaVMECb2Qnwvzj2i' @ 0 : 0; will stop at (end)
+2025/06/19-03:12:21.822 2fb8 Recovering log #16
+2025/06/19-03:12:21.827 2fb8 Delete type=0 #16
+2025/06/19-03:12:21.827 2fb8 Delete type=3 #12

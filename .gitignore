@@ -1,5 +1,3 @@
 # Ignore files not needed in version control
-*.db
 *.log
-packs/*.db
 node_modules/
