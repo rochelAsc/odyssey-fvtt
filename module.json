@@ -1,16 +1,16 @@
 {
   "id": "odyssey",
   "title": "Odyssey",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
   },
   "packs": [
     {
-      "name": "transformacoes",
-      "label": "Transformações",
-      "path": "packs/transformacoes",
+      "name": "odyssey-transformacoes",
+      "label": "Odyssey Transformações",
+      "path": "packs/odyssey-transformacoes",
       "type": "Actor",
       "system": "dnd5e",
       "ownership": {
@@ -19,9 +19,9 @@
       }
     },
     {
-      "name": "itens",
-      "label": "Itens",
-      "path": "packs/itens",
+      "name": "odyssey-itens",
+      "label": "Odyssey Itens",
+      "path": "packs/odyssey-itens",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -30,9 +30,9 @@
       }
     },
     {
-      "name": "racas",
-      "label": "Raças",
-      "path": "packs/racas",
+      "name": "odyssey-racas",
+      "label": "Odyssey Raças",
+      "path": "packs/odyssey-racas",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -41,9 +41,9 @@
       }
     },
     {
-      "name": "atributosunicos",
-      "label": "Atributos Únicos",
-      "path": "packs/atributosunicos",
+      "name": "odyssey-atributosunicos",
+      "label": "Odyssey Atributos Únicos",
+      "path": "packs/odyssey-atributosunicos",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -52,9 +52,9 @@
       }
     },
     {
-      "name": "regras",
-      "label": "Regras",
-      "path": "packs/regras",
+      "name": "odyssey-regras",
+      "label": "Odyssey Regras",
+      "path": "packs/odyssey-regras",
       "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
@@ -63,9 +63,9 @@
       }
     },
     {
-      "name": "equipamentos",
-      "label": "Equipamentos",
-      "path": "packs/equipamentos",
+      "name": "odyssey-equipamentos",
+      "label": "Odyssey Equipamentos",
+      "path": "packs/odyssey-equipamentos",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -74,9 +74,9 @@
       }
     },
     {
-      "name": "habilidades",
-      "label": "Habilidades",
-      "path": "packs/habilidades",
+      "name": "odyssey-habilidades",
+      "label": "Odyssey Habilidades",
+      "path": "packs/odyssey-habilidades",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
