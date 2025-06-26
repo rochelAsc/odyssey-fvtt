@@ -1,7 +1,22 @@
-2025/06/25-21:07:01.821 4f80 Recovering log #64
-2025/06/25-21:07:01.825 4f80 Delete type=0 #64
-2025/06/25-21:07:01.825 4f80 Delete type=3 #62
-2025/06/25-22:21:43.743 3b74 Level-0 table #69: started
-2025/06/25-22:21:43.743 3b74 Level-0 table #69: 0 bytes OK
-2025/06/25-22:21:43.747 3b74 Delete type=0 #67
-2025/06/25-22:21:43.748 3b74 Manual compaction at level-0 from 'undefined' @ 72057594037927935 : 1 .. 'undefined' @ 0 : 0; will stop at (end)
+2025/06/25-22:22:19.905 3e08 Recovering log #68
+2025/06/25-22:22:19.911 3e08 Delete type=0 #68
+2025/06/25-22:22:19.911 3e08 Delete type=3 #66
+2025/06/26-01:41:37.708 3b74 Level-0 table #73: started
+2025/06/26-01:41:37.711 3b74 Level-0 table #73: 22595 bytes OK
+2025/06/26-01:41:37.712 3b74 Delete type=0 #71
+2025/06/26-01:41:37.716 3b74 Manual compaction at level-0 from '!actors!iLBk4q3g0OAsvkFs' @ 72057594037927935 : 1 .. '!actors!ufgkDTxcPpPC1Jum' @ 0 : 0; will stop at '!actors!ufgkDTxcPpPC1Jum' @ 79 : 1
+2025/06/26-01:41:37.716 3b74 Compacting 1@0 + 1@1 files
+2025/06/26-01:41:37.720 3b74 Generated table #74@0: 16 keys, 5601 bytes
+2025/06/26-01:41:37.720 3b74 Compacted 1@0 + 1@1 files => 5601 bytes
+2025/06/26-01:41:37.722 3b74 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/06/26-01:41:37.722 3b74 Delete type=2 #25
+2025/06/26-01:41:37.723 3b74 Delete type=2 #73
+2025/06/26-01:41:37.734 3b74 Manual compaction at level-0 from '!actors!ufgkDTxcPpPC1Jum' @ 79 : 1 .. '!actors!ufgkDTxcPpPC1Jum' @ 0 : 0; will stop at (end)
+2025/06/26-01:41:37.740 3b74 Manual compaction at level-1 from '!actors!iLBk4q3g0OAsvkFs' @ 72057594037927935 : 1 .. '!actors!ufgkDTxcPpPC1Jum' @ 0 : 0; will stop at '!folders!mvqC41RY1EsAnPfE' @ 65 : 0
+2025/06/26-01:41:37.740 3b74 Compacting 1@1 + 1@2 files
+2025/06/26-01:41:37.744 3b74 Generated table #75@1: 2 keys, 5168 bytes
+2025/06/26-01:41:37.744 3b74 Compacted 1@1 + 1@2 files => 5168 bytes
+2025/06/26-01:41:37.746 3b74 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/06/26-01:41:37.747 3b74 Delete type=2 #21
+2025/06/26-01:41:37.747 3b74 Delete type=2 #74
+2025/06/26-01:41:37.777 3b74 Manual compaction at level-1 from '!folders!mvqC41RY1EsAnPfE' @ 65 : 0 .. '!actors!ufgkDTxcPpPC1Jum' @ 0 : 0; will stop at (end)
