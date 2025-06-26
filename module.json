@@ -93,5 +93,33 @@
       "flags": {}
     }
   ],
-  "url": "https://github.com/rochelAsc/odyssey-fvtt.git"
+  "url": "https://github.com/rochelAsc/odyssey-fvtt.git",
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "custom-dnd5e",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dnd5e-spellpoints",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "dnd5e-content-manager",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
 }
