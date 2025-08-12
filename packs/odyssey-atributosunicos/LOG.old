@@ -1,8 +1,3 @@
-2025/08/11-00:29:47.629 4014 Recovering log #104
-2025/08/11-00:29:47.633 4014 Delete type=0 #104
-2025/08/11-00:29:47.633 4014 Delete type=3 #102
-2025/08/11-01:13:59.014 429c Level-0 table #109: started
-2025/08/11-01:13:59.014 429c Level-0 table #109: 0 bytes OK
-2025/08/11-01:13:59.017 429c Delete type=0 #107
-2025/08/11-01:13:59.022 429c Manual compaction at level-0 from '!folders!01MqtOTheLHeappy' @ 72057594037927935 : 1 .. '!items!x5JQlZiHWlFKLRKL' @ 0 : 0; will stop at (end)
-2025/08/11-01:13:59.022 429c Manual compaction at level-1 from '!folders!01MqtOTheLHeappy' @ 72057594037927935 : 1 .. '!items!x5JQlZiHWlFKLRKL' @ 0 : 0; will stop at (end)
+2025/08/11-15:58:52.630 5060 Recovering log #112
+2025/08/11-15:58:52.635 5060 Delete type=0 #112
+2025/08/11-15:58:52.635 5060 Delete type=3 #110
