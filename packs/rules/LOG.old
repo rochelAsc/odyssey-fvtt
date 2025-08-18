@@ -1,7 +1,7 @@
-2025/08/17-13:14:32.962 1ae4 Recovering log #4
-2025/08/17-13:14:32.967 1ae4 Delete type=0 #4
-2025/08/17-13:14:32.967 1ae4 Delete type=3 #2
-2025/08/17-13:16:23.098 2914 Level-0 table #9: started
-2025/08/17-13:16:23.098 2914 Level-0 table #9: 0 bytes OK
-2025/08/17-13:16:23.099 2914 Delete type=0 #7
-2025/08/17-13:16:23.101 2914 Manual compaction at level-0 from 'undefined' @ 72057594037927935 : 1 .. 'undefined' @ 0 : 0; will stop at (end)
+2025/08/17-13:16:54.720 63fc Recovering log #8
+2025/08/17-13:16:54.725 63fc Delete type=0 #8
+2025/08/17-13:16:54.725 63fc Delete type=3 #6
+2025/08/17-20:25:17.000 2914 Level-0 table #13: started
+2025/08/17-20:25:17.000 2914 Level-0 table #13: 0 bytes OK
+2025/08/17-20:25:17.003 2914 Delete type=0 #11
+2025/08/17-20:25:17.010 2914 Manual compaction at level-0 from 'undefined' @ 72057594037927935 : 1 .. 'undefined' @ 0 : 0; will stop at (end)

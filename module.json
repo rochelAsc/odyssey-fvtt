@@ -85,125 +85,125 @@
       }
     },
     {
-      "name": "class",
+      "name": "classes",
       "label": "ODS | CLASSES",
-      "path": "packs/class",
+      "path": "packs/classes",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
-      "name": "class-features",
-      "label": "ODS | CLASS FEATURES",
-      "path": "packs/class-features",
+      "name": "classes-tracos",
+      "label": "ODS | TRAÇOS DE CLASSE",
+      "path": "packs/classes-tracos",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
-      "name": "features",
-      "label": "OBS | FEATURES",
-      "path": "packs/features",
+      "name": "tracos",
+      "label": "OBS | TRAÇOS",
+      "path": "packs/tracos",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
-      "name": "spells",
-      "label": "ODS | SPELLS",
-      "path": "packs/spells",
+      "name": "magias",
+      "label": "ODS | MAGIAS",
+      "path": "packs/magias",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
-      "name": "races",
-      "label": "ODS | RACES",
-      "path": "packs/races",
+      "name": "racas",
+      "label": "ODS | RAÇAS",
+      "path": "packs/racas",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
-      "name": "equipment",
-      "label": "ODS | EQUIPMENT",
-      "path": "packs/equipment",
+      "name": "equipamentos",
+      "label": "ODS | EQUIPAMENTOS",
+      "path": "packs/equipamentos",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
-      "name": "items",
-      "label": "ODS | ITEMS",
-      "path": "packs/items",
+      "name": "itens",
+      "label": "ODS | ITENS",
+      "path": "packs/itens",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
-      "name": "npcs-monsters",
-      "label": "ODS | NPCS & MONSTERS",
-      "path": "packs/npcs-monsters",
+      "name": "npcs",
+      "label": "ODS | NPCS",
+      "path": "packs/npcs",
       "type": "Actor",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
-      "name": "transformations",
-      "label": "ODS | TRANSFORMATIONS",
-      "path": "packs/transformations",
+      "name": "transformacoes",
+      "label": "ODS | TRANSFORMAÇÕES",
+      "path": "packs/transformacoes",
       "type": "Actor",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
-      "name": "rules",
-      "label": "ODS | RULES",
-      "path": "packs/rules",
+      "name": "REGRAS",
+      "label": "ODS | REGRAS",
+      "path": "packs/REGRAS",
       "type": "JournalEntry",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "lore",
       "label": "ODS | LORE",
       "path": "packs/lore",
       "type": "JournalEntry",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     }
   ],
   "authors": [
