@@ -1,5 +1,5 @@
-2025/08/27-22:58:29.114 6cc4 Recovering log #41
-2025/08/27-22:58:29.115 6cc4 Level-0 table #43: started
-2025/08/27-22:58:29.117 6cc4 Level-0 table #43: 8242 bytes OK
-2025/08/27-22:58:29.122 6cc4 Delete type=0 #41
-2025/08/27-22:58:29.122 6cc4 Delete type=3 #40
+2025/08/28-15:47:48.802 6d0c Recovering log #44
+2025/08/28-15:47:48.802 6d0c Level-0 table #46: started
+2025/08/28-15:47:48.805 6d0c Level-0 table #46: 12520 bytes OK
+2025/08/28-15:47:48.810 6d0c Delete type=0 #44
+2025/08/28-15:47:48.810 6d0c Delete type=3 #42
