@@ -1,5 +1,5 @@
-2025/08/28-15:47:48.852 1e08 Recovering log #47
-2025/08/28-15:47:48.853 1e08 Level-0 table #49: started
-2025/08/28-15:47:48.857 1e08 Level-0 table #49: 23099 bytes OK
-2025/08/28-15:47:48.861 1e08 Delete type=0 #47
-2025/08/28-15:47:48.861 1e08 Delete type=3 #45
+2025/08/28-22:51:46.919 74ec Recovering log #50
+2025/08/28-22:51:46.919 74ec Level-0 table #52: started
+2025/08/28-22:51:46.922 74ec Level-0 table #52: 18192 bytes OK
+2025/08/28-22:51:46.927 74ec Delete type=0 #50
+2025/08/28-22:51:46.927 74ec Delete type=3 #48
