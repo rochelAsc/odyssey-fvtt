@@ -1,5 +1,5 @@
-2025/09/29-22:48:27.139 32dc Recovering log #81
-2025/09/29-22:48:27.139 32dc Level-0 table #83: started
-2025/09/29-22:48:27.159 32dc Level-0 table #83: 509 bytes OK
-2025/09/29-22:48:27.159 32dc Delete type=0 #81
-2025/09/29-22:48:27.159 32dc Delete type=3 #80
+2025/09/30-10:34:03.692 30c0 Recovering log #84
+2025/09/30-10:34:03.692 30c0 Level-0 table #86: started
+2025/09/30-10:34:03.696 30c0 Level-0 table #86: 23616 bytes OK
+2025/09/30-10:34:03.702 30c0 Delete type=0 #84
+2025/09/30-10:34:03.702 30c0 Delete type=3 #82
