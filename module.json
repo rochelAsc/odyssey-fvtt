@@ -2,122 +2,61 @@
   "id": "odyssey",
   "title": "Odyssey",
   "version": "1.0.6",
-  "compatibility": {
-    "minimum": "13",
-    "verified": "13"
-  },
+  "compatibility": { "minimum": "13", "verified": "13" },
+
   "packs": [
-    {
-      "name": "classes",
-      "label": "ODS | CLASSES",
-      "path": "packs/classes",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "tracos",
-      "label": "OBS | TRAÇOS",
-      "path": "packs/tracos",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "magias",
-      "label": "ODS | MAGIAS",
-      "path": "packs/magias",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "racas",
-      "label": "ODS | RAÇAS",
-      "path": "packs/racas",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "equipamentos",
-      "label": "ODS | EQUIPAMENTOS",
-      "path": "packs/equipamentos",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "itens",
-      "label": "ODS | ITENS",
-      "path": "packs/itens",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "npcs",
-      "label": "ODS | NPCS",
-      "path": "packs/npcs",
-      "type": "Actor",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "transformacoes",
-      "label": "ODS | TRANSFORMAÇÕES",
-      "path": "packs/transformacoes",
-      "type": "Actor",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "REGRAS",
-      "label": "ODS | REGRAS",
-      "path": "packs/REGRAS",
-      "type": "JournalEntry",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "lore",
-      "label": "ODS | LORE",
-      "path": "packs/lore",
-      "type": "JournalEntry",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    }
+    { "name": "classes", "label": "ODS | CLASSES", "path": "packs/classes", "type": "Item", "system": "dnd5e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "tracos", "label": "OBS | TRAÇOS", "path": "packs/tracos", "type": "Item", "system": "dnd5e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "magias", "label": "ODS | MAGIAS", "path": "packs/magias", "type": "Item", "system": "dnd5e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "racas", "label": "ODS | RAÇAS", "path": "packs/racas", "type": "Item", "system": "dnd5e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "equipamentos", "label": "ODS | EQUIPAMENTOS", "path": "packs/equipamentos", "type": "Item", "system": "dnd5e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "itens", "label": "ODS | ITENS", "path": "packs/itens", "type": "Item", "system": "dnd5e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "npcs", "label": "ODS | NPCS", "path": "packs/npcs", "type": "Actor", "system": "dnd5e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "transformacoes", "label": "ODS | TRANSFORMAÇÕES", "path": "packs/transformacoes", "type": "Actor", "system": "dnd5e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "REGRAS", "label": "ODS | REGRAS", "path": "packs/REGRAS", "type": "JournalEntry",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "lore", "label": "ODS | LORE", "path": "packs/lore", "type": "JournalEntry",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } }
   ],
+
+  "packFolders": [
+    {
+      "name": "ODS | Conteúdo",
+      "sorting": "a",
+      "color": "#b08e1e",
+      "folders": [
+        {
+          "name": "Regras & Lore",
+          "sorting": "a",
+          "packs": ["REGRAS", "lore"]
+        },
+        {
+          "name": "Classes & Raças",
+          "sorting": "a",
+          "packs": ["classes", "racas", "tracos"]
+        },
+        {
+          "name": "Itens & Equipamentos & Magias",
+          "sorting": "a",
+          "packs": ["itens", "equipamentos", "magias"]
+        },
+        {
+          "name": "Personagens & Formas",
+          "sorting": "a",
+          "packs": ["npcs", "transformacoes"]
+        }
+      ]
+    }
+  ]
+},
   "authors": [
     {
       "name": "Rochel",
@@ -126,7 +65,7 @@
       "flags": {}
     }
   ],
-  "url": "https://github.com/rochelAsc/odyssey-fvtt.git",
+  "url": "https://github.com/rochelAsc/odyssey-fvtt",
   "relationships": {
     "systems": [
       {
