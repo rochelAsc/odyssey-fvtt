@@ -1,11 +1,11 @@
 {
   "id": "odyssey",
   "title": "Odyssey",
-  "version": "1.0.62",
+  "version": "1.0.63",
   "compatibility": { "minimum": "13", "verified": "13" },
 
   "manifest": "https://github.com/rochelAsc/odyssey-fvtt/releases/latest/download/module.json",
-  "download": "https://github.com/rochelAsc/odyssey-fvtt/releases/download/v1.0.62/Odyssey-1.0.62.zip",
+  "download": "https://github.com/rochelAsc/odyssey-fvtt/releases/latest/download/Odyssey.zip",
   "url": "https://github.com/rochelAsc/odyssey-fvtt",
 
 
