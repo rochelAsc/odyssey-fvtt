@@ -8,97 +8,9 @@
   },
   "packs": [
     {
-      "name": "odyssey-transformacoes",
-      "label": "Odyssey Transformações",
-      "path": "packs/odyssey-transformacoes",
-      "type": "Actor",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "odyssey-itens",
-      "label": "Odyssey Itens",
-      "path": "packs/odyssey-itens",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "odyssey-racas",
-      "label": "Odyssey Raças",
-      "path": "packs/odyssey-racas",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "odyssey-atributosunicos",
-      "label": "Odyssey Atributos Únicos",
-      "path": "packs/odyssey-atributosunicos",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "odyssey-regras",
-      "label": "Odyssey Regras",
-      "path": "packs/odyssey-regras",
-      "type": "JournalEntry",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "odyssey-equipamentos",
-      "label": "Odyssey Equipamentos",
-      "path": "packs/odyssey-equipamentos",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "odyssey-habilidades",
-      "label": "Odyssey Habilidades",
-      "path": "packs/odyssey-habilidades",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
       "name": "classes",
       "label": "ODS | CLASSES",
       "path": "packs/classes",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "classes-tracos",
-      "label": "ODS | TRAÇOS DE CLASSE",
-      "path": "packs/classes-tracos",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -242,5 +154,7 @@
         "compatibility": {}
       }
     ]
-  }
+  },
+  "description": "",
+  "flags": {}
 }
