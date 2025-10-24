@@ -1,34 +1,34 @@
 {
   "id": "odyssey",
   "title": "Odyssey",
-  "version": "1.0.6",
+  "version": "1.0.62",
   "compatibility": { "minimum": "13", "verified": "13" },
 
-  "manifest": "https://github.com/rochelAsc/odyssey-fvtt/releases/download/v1.0.6/module.json",
-  "download": "https://github.com/rochelAsc/odyssey-fvtt/releases/download/v1.0.6/Odyssey-1.0.6.zip",
+  "manifest": "https://github.com/rochelAsc/odyssey-fvtt/releases/download/v1.0.62/module.json",
+  "download": "https://github.com/rochelAsc/odyssey-fvtt/releases/download/v1.0.62/Odyssey-1.0.62.zip",
   "url": "https://github.com/rochelAsc/odyssey-fvtt",
 
 
   "packs": [
-    { "name": "classes", "label": "ODS | CLASSES", "path": "packs/classes", "type": "Item", "system": "dnd5e",
+    { "name": "ODS-CLASSES", "label": "ODS | CLASSES", "path": "packs/ODS-CLASSES", "type": "Item", "system": "dnd5e",
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "tracos", "label": "OBS | TRAÇOS", "path": "packs/tracos", "type": "Item", "system": "dnd5e",
+    { "name": "ODS-TRACOS", "label": "OBS | TRAÇOS", "path": "packs/ODS-TRACOS", "type": "Item", "system": "dnd5e",
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "magias", "label": "ODS | MAGIAS", "path": "packs/magias", "type": "Item", "system": "dnd5e",
+    { "name": "ODS-MAGIAS", "label": "ODS | MAGIAS", "path": "packs/ODS-MAGIAS", "type": "Item", "system": "dnd5e",
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "racas", "label": "ODS | RAÇAS", "path": "packs/racas", "type": "Item", "system": "dnd5e",
+    { "name": "ODS-RACAS", "label": "ODS | RAÇAS", "path": "packs/ODS-RACAS", "type": "Item", "system": "dnd5e",
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "equipamentos", "label": "ODS | EQUIPAMENTOS", "path": "packs/equipamentos", "type": "Item", "system": "dnd5e",
+    { "name": "ODS-EQUIPAMENTOS", "label": "ODS | EQUIPAMENTOS", "path": "packs/ODS-EQUIPAMENTOS", "type": "Item", "system": "dnd5e",
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "itens", "label": "ODS | ITENS", "path": "packs/itens", "type": "Item", "system": "dnd5e",
+    { "name": "ODS-ITENS", "label": "ODS | ITENS", "path": "packs/ODS-ITENS", "type": "Item", "system": "dnd5e",
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "npcs", "label": "ODS | NPCS", "path": "packs/npcs", "type": "Actor", "system": "dnd5e",
+    { "name": "ODS-NPCS", "label": "ODS | NPCS", "path": "packs/ODS-NPCS", "type": "Actor", "system": "dnd5e",
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "transformacoes", "label": "ODS | TRANSFORMAÇÕES", "path": "packs/transformacoes", "type": "Actor", "system": "dnd5e",
+    { "name": "ODS-TRANSFORMACOES", "label": "ODS | TRANSFORMAÇÕES", "path": "packs/ODS-TRANSFORMACOES", "type": "Actor", "system": "dnd5e",
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "REGRAS", "label": "ODS | REGRAS", "path": "packs/REGRAS", "type": "JournalEntry",
+    { "name": "ODS-REGRAS", "label": "ODS | REGRAS", "path": "packs/ODS-REGRAS", "type": "JournalEntry",
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "lore", "label": "ODS | LORE", "path": "packs/lore", "type": "JournalEntry",
+    { "name": "ODS-LORE", "label": "ODS | LORE", "path": "packs/ODS-LORE", "type": "JournalEntry",
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } }
   ],
 
@@ -41,22 +41,22 @@
         {
           "name": "Regras & Lore",
           "sorting": "a",
-          "packs": ["REGRAS", "lore"]
+          "packs": ["ODS-REGRAS", "ODS-LORE"]
         },
         {
           "name": "Classes & Raças",
           "sorting": "a",
-          "packs": ["classes", "racas", "tracos"]
+          "packs": ["ODS-CLASSES", "ODS-RACAS", "ODS-TRACOS"]
         },
         {
           "name": "Itens & Equipamentos & Magias",
           "sorting": "a",
-          "packs": ["itens", "equipamentos", "magias"]
+          "packs": ["ODS-ITENS", "ODS-EQUIPAMENTOS", "ODS-MAGIAS"]
         },
         {
           "name": "Personagens & Formas",
           "sorting": "a",
-          "packs": ["npcs", "transformacoes"]
+          "packs": ["ODS-NPCS", "ODS-TRANSFORMACOES"]
         }
       ]
     }
@@ -66,7 +66,7 @@
     {
       "name": "Rochel",
       "email": "rochelinho@gmail.com",
-      "discord": "rochel_.",
+      "discord": "1.rochel",
       "flags": {}
     }
   ],
